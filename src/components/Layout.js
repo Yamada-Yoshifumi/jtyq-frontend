@@ -43,7 +43,7 @@ export class Layout extends Component {
           {this.props.children}
         </Container>
         <button className="chat-button" onClick={() => this.handleOpenChange()}
-          style={{backgroundImage:"/jtyq-frontend/chat.png"}}
+          style={{backgroundImage:"/jtyq-frontend/close.png"}}
         >
         </button>
         <a href="https://www.flaticon.com/free-icons/conversation" title="conversation icons">Conversation icons created by Pixel perfect - Flaticon</a>
