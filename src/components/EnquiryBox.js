@@ -14,7 +14,7 @@ export const EnquiryBox  = ({ open, setClose}) =>  {
                 onClick={() => setClose()}
                 type="button"
                 className="close-button"
-                style={{backgroundImage:"./jtyq-frontend/close.png", borderRadius:'10px'}}
+                style={{backgroundImage:"url(/jtyq-frontend/close.png)", borderRadius:'10px'}}
             >
             </button>
             <h2>Enquiry</h2>
