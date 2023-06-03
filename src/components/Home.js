@@ -29,21 +29,21 @@ export class Home extends Component {
           
 
         <ContentBanner 
-          background_picture="./jtyq-frontend/banner_1.jpg"
+          background_picture="url(/banner_1.jpg)"
           header_text="Our Scope"
           mainbody_text ="Whatever you wish to put here."
           text_alignment = "Left"
           />
 
         <ContentBanner 
-          background_picture="./jtyq-frontend/banner_1.jpg"
+          background_picture="url(/banner_1.jpg)"
           header_text="Our Team"
           mainbody_text ="Whatever you wish to put here."
           text_alignment = "Right"
           />
 
         <ContentBanner 
-          background_picture="./jtyq-frontend/banner_1.jpg"
+          background_picture="url(/banner_1.jpg)"
           header_text="Cases"
           mainbody_text ="Whatever you wish to put here."
           text_alignment = "Left"
