@@ -1,7 +1,7 @@
 {
   "name": "jtyq-frontend",
   "version": "0.1.0",
-  "homepage": "https://yamada-yoshifumi.github.io/jtyq-frontend/",
+  "homepage": "https://yamada-yoshifumi.github.io/jtyq-frontend",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.0",
