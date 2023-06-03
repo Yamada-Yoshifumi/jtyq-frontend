@@ -12,7 +12,7 @@ export class HeadBanner extends Component{
             >
                 <div
                     className='fit-bgimage shadow-lg p-3 mb-5 rounded'
-                    style={{'--bgimage': "/jtyq-frontent/head_banner_2.jpg"}}
+                    style={{'--bgimage': "./jtyq-frontent/head_banner_2.jpg"}}
                 >
                     <Container className="position-relative top-10vh start-0">
                         <Row>

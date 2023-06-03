@@ -9,7 +9,7 @@ export class BottomBanner extends Component{
         return(
             <div className='bottom-banner'
             style={
-                {backgroundImage: "/jtyq-frontend/bottom_banner.jpg"}
+                {backgroundImage: "./jtyq-frontend/bottom_banner.jpg"}
             }
             >
                 <Container>
