@@ -1,0 +1,52 @@
+.enquiry-box {
+    background-color: lightblue;
+    position: fixed;
+    bottom: 40vh;
+    right: 0vw;
+    text-align: left;
+    max-height: 50vh;
+    max-width: 20vw;
+    min-height: 20vh;
+    min-width: 7vw;
+    }
+
+.form {
+    padding: 1em;
+    position: relative;
+}
+
+.label {
+    font-weight: 600;
+    position: relative;
+}
+  
+/* Close button */
+.close-button {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    background-image: radial-gradient(white, transparent);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    }
+
+.open {
+    transform: translateY(0vh);
+    box-shadow: 0 0 10px rgba(55, 55, 55, 0.3);
+    transition: 400ms;
+}
+
+.close {
+    transform: translateY(100vh);
+    transition: 400ms;
+}

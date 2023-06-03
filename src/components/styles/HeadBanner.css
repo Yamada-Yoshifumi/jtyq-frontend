@@ -1,0 +1,14 @@
+.head-banner {
+    width: 1300px;
+    height: 500px;
+    border-radius: 10px;
+    fill-opacity: 0;
+    margin-bottom: 3cm;
+}
+
+@media (max-width: 1000px) {
+    html{padding: 70px 30px; height: 100%;};
+    body, #app, #app>div {
+        height: 100%
+    }
+}

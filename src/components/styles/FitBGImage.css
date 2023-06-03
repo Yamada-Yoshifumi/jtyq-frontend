@@ -1,0 +1,7 @@
+.fit-bgimage {
+    background: var(--bgimage);;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

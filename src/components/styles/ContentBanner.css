@@ -1,0 +1,26 @@
+.App {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.content-banner {
+    width: 50vw;
+    height: 30vh;
+    margin-bottom: 3cm;
+}
+
+.mobile-content-banner {
+    width: 70vw;
+    height: 50vh;
+    margin-bottom: 1cm;
+}
+
+@media (max-width: 1000px) {
+    html{padding: 70px 30px; height: 100%;};
+    body, #app, #app>div {
+        height: 100%
+    }
+}

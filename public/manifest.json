@@ -1,0 +1,35 @@
+{
+  "short_name": "jtyq",
+  "name": "jtyq",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "chat.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "banner_1.jpg",
+      "type": "image/jpg",
+      "sizes": "1440x360"
+    },
+    {
+      "src": "close.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "head_banner_2.jpg",
+      "type": "image/jpg",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
