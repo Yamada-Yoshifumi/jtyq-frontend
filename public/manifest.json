@@ -1,6 +1,6 @@
 {
-  "short_name": "jtyq",
-  "name": "jtyq",
+  "short_name": "jtyq-frontend",
+  "name": "jtyq-frontend",
   "icons": [
     {
       "src": "favicon.ico",
