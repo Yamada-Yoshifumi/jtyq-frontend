@@ -21,7 +21,7 @@ export class BottomBanner extends Component{
                         <Col><NavLink tag={Link} className='text-white' to='/news'>News</NavLink></Col>
                         </Row>
                         <Row>
-                        <Col><NavLink tag={Link} className='text-white' to='/aboutus'>About Us</NavLink></Col>
+                        <Col><NavLink tag={Link} className='text-white' to='/ourteam'>About Us</NavLink></Col>
                         <Col><NavLink tag={Link} className='text-white' to='/contactus'>Contact Us</NavLink></Col>
                         </Row>
                         <Row>

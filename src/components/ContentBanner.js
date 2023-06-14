@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import './styles/ContentBanner.css'
+import { Container, Row, Col, NavLink} from "reactstrap";
+import { Link } from 'react-router-dom';
+import './styles/ContentBanner.css';
+import {ContentBannerText} from './ContentBannerText';
 
 export class ContentBanner extends Component{
     render() {
@@ -11,13 +14,44 @@ export class ContentBanner extends Component{
           content_banner_class = 'content-banner';
         var text_alignment;
         var div_anchor;
+        var contents;
         if (this.props.text_alignment === 'Left'){
             text_alignment = 'text-white';
             div_anchor = 'left';
+            contents = (
+                <Container>
+                    <Row>
+                        <Col md={4}>
+                            <NavLink tag={Link} to={this.props.header_text.replace(/ /g,'').toLowerCase()} className={text_alignment} style={{"font-size": "40px"}}>{this.props.header_text}</NavLink>
+                            <p className={text_alignment}>{this.props.mainbody_text}</p>
+                        </Col>
+                        <Col md={8}>
+                            <ContentBannerText
+                                banner_content={this.props.header_text}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+            )
         }
         else{
             text_alignment = 'text-white text-end';
-            div_anchor = 'right';
+            div_anchor = 'left';
+            contents = (
+                <Container>
+                    <Row>
+                        <Col md={8}>
+                            <ContentBannerText
+                                banner_content={this.props.header_text}
+                            />
+                        </Col>
+                        <Col md={4}>
+                            <NavLink tag={Link} to={this.props.header_text.replace(/ /g,'').toLowerCase()} className={text_alignment} style={{"font-size": "40px"}}>{this.props.header_text}</NavLink>
+                            <p className={text_alignment}>{this.props.mainbody_text}</p>
+                        </Col>
+                    </Row>
+                </Container>
+            )
         }
         return(
             <div
@@ -26,8 +60,9 @@ export class ContentBanner extends Component{
                     {backgroundImage: this.props.background_picture, borderRadius:'10px', float:div_anchor}
                 }
             >
-                <h1 className={text_alignment}>{this.props.header_text}</h1>
-                <p className={text_alignment}>{this.props.mainbody_text}</p>
+                <div>
+                    {contents}
+                </div>
             </div>
         )
     }

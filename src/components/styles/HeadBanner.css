@@ -1,9 +1,9 @@
 .head-banner {
-    width: 1300px;
-    height: 500px;
+    width: 70vw;
+    height: 50vh;
     border-radius: 10px;
     fill-opacity: 0;
-    margin-bottom: 3cm;
+    margin-bottom: 1cm;
 }
 
 @media (max-width: 1000px) {

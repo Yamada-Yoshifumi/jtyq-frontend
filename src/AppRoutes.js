@@ -1,6 +1,6 @@
 import { FAQs } from "./components/FAQs";
 import { News } from "./components/News";
-import { AboutUs } from "./components/AboutUs";
+import { OurTeam } from "./components/OurTeam";
 import { ContactUs } from "./components/ContactUs";
 import { Careers } from "./components/Careers";
 import { Home } from "./components/Home";
@@ -19,8 +19,8 @@ const AppRoutes = [
     element: <News />
   },
   {
-    path: '/aboutus',
-    element: <AboutUs />
+    path: '/ourteam',
+    element: <OurTeam />
   },
   {
     path: '/contactus',
